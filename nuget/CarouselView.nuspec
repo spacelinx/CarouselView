@@ -194,23 +194,17 @@
 
         <!-- Xamarin.iOS (Unified)-->
         <file src="lib/CarouselView.FormsPlugin.iOS.dll" target="lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll" />
-      <!-- 
-      <file src="..\bin\Debug\CarouselView.FormsPlugin.iOS.pdb" target="lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.pdb" />
-       -->
+        <file src="..\CarouselView\CarouselView.FormsPlugin.iOS\bin\iPhone\Debug\CarouselView.FormsPlugin.iOS.pdb" target="lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.pdb" />
 
-      <file src="lib/CarouselView.FormsPlugin.Abstractions.dll" target="lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll" />
-      <!-- 
+        <file src="lib/CarouselView.FormsPlugin.Abstractions.dll" target="lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll" />
+        <!-- 
         <file src="..\bin\Debug\CarouselView.FormsPlugin.Abstractions.pdb" target="lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.pdb" />
--->
+        -->
+
         <!-- Xamarin.Android -->
         <file src="lib/CarouselView.FormsPlugin.Android.dll" target="lib/MonoAndroid/CarouselView.FormsPlugin.Android.dll" />
-      <!-- 
-        <file src="..\bin\Debug\CarouselView.FormsPlugin.Android.pdb" target="lib/MonoAndroid/CarouselView.FormsPlugin.Android.pdb" />
--->
-      <file src="lib/CarouselView.FormsPlugin.Abstractions.dll" target="lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll" />
-      <!-- 
+        <file src="..\CarouselView\CarouselView.FormsPlugin.Android\bin\Debug\CarouselView.FormsPlugin.Android.pdb" target="lib/MonoAndroid/CarouselView.FormsPlugin.Android.pdb" />
+        <file src="lib/CarouselView.FormsPlugin.Abstractions.dll" target="lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll" />
         <file src="..\bin\Debug\CarouselView.FormsPlugin.Abstractions.pdb" target="lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.pdb" />
--->
-
       </files>
 </package>
