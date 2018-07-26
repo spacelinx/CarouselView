@@ -90,8 +90,8 @@ namespace CarouselView.FormsPlugin.Android
                 if (Element == null) return;
                     
                 Element.SizeChanged -= Element_SizeChanged;
-                if (Element.ItemsSource != null && Element.ItemsSource is INotifyCollectionChanged)
-                    ((INotifyCollectionChanged)Element.ItemsSource).CollectionChanged -= ItemsSource_CollectionChanged;
+                if (Element.ItemsSource is INotifyCollectionChanged changed)
+                    changed.CollectionChanged -= ItemsSource_CollectionChanged;
 
                 // KeyboardService code
                 Xamarin.Forms.Application.Current.MainPage.SizeChanged -= MainPage_SizeChanged;
@@ -100,11 +100,14 @@ namespace CarouselView.FormsPlugin.Android
 
             if (e.NewElement != null)
             {
+                if(nativeView != null)
+                    SetNativeView();
+
                 Element.SizeChanged += Element_SizeChanged;
 
                 // Configure the control and subscribe to event handlers
-                if (Element.ItemsSource != null && Element.ItemsSource is INotifyCollectionChanged)
-                    ((INotifyCollectionChanged)Element.ItemsSource).CollectionChanged += ItemsSource_CollectionChanged;
+                if (Element.ItemsSource is INotifyCollectionChanged changed)
+                    changed.CollectionChanged += ItemsSource_CollectionChanged;
 
                 // KeyboardService code
                 Xamarin.Forms.Application.Current.MainPage.SizeChanged += MainPage_SizeChanged;
