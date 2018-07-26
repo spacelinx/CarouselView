@@ -185,23 +185,23 @@
     <files>
         <!-- NetStandard -->
         <file src="lib/CarouselView.FormsPlugin.Abstractions.dll" target="lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll" />
-        <file src="lib/CarouselView.FormsPlugin.Abstractions.pdb" target="lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.pdb" />
+        <file src="bin\Debug\netstandard2.0\CarouselView.FormsPlugin.Abstractions.pdb" target="lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.pdb" />
 
         <!-- PCL -->
         <file src="lib/Portable/CarouselView.FormsPlugin.Abstractions.dll" target="lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll" />
-        <file src="lib/Portable/CarouselView.FormsPlugin.Abstractions.pdb" target="lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.pdb" />
+        <file src="bin\Debug\netstandard2.0\CarouselView.FormsPlugin.Abstractions.pdb" target="lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.pdb" />
 
         <!-- Xamarin.iOS (Unified)-->
         <file src="lib/CarouselView.FormsPlugin.iOS.dll" target="lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll" />
-        <file src="lib/CarouselView.FormsPlugin.iOS.pdb" target="lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.pdb" />
+        <file src="bin\Debug\CarouselView.FormsPlugin.iOS.pdb" target="lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.pdb" />
         <file src="lib/CarouselView.FormsPlugin.Abstractions.dll" target="lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll" />
-        <file src="lib/CarouselView.FormsPlugin.Abstractions.pdb" target="lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.pdb" />
+        <file src="bin\Debug\CarouselView.FormsPlugin.Abstractions.pdb" target="lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.pdb" />
 
         <!-- Xamarin.Android -->
         <file src="lib/CarouselView.FormsPlugin.Android.dll" target="lib/MonoAndroid/CarouselView.FormsPlugin.Android.dll" />
-        <file src="lib/CarouselView.FormsPlugin.Android.pdb" target="lib/MonoAndroid/CarouselView.FormsPlugin.Android.pdb" />
+        <file src="bin\Debug\CarouselView.FormsPlugin.Android.pdb" target="lib/MonoAndroid/CarouselView.FormsPlugin.Android.pdb" />
         <file src="lib/CarouselView.FormsPlugin.Abstractions.dll" target="lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll" />
-        <file src="lib/CarouselView.FormsPlugin.Abstractions.pdb" target="lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.pdb" />
+        <file src="bin\Debug\CarouselView.FormsPlugin.Abstractions.pdb" target="lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.pdb" />
 
     </files>
 </package>
