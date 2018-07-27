@@ -100,7 +100,7 @@ namespace CarouselView.FormsPlugin.Android
 
             if (e.NewElement != null)
             {
-                if(nativeView != null)
+                if(nativeView == null)
                     SetNativeView();
 
                 Element.SizeChanged += Element_SizeChanged;
